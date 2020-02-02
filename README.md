@@ -61,11 +61,15 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
-Sprint 1: February 12th, 2020
-	Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
+### Sprint 1: February 12th, 2020
+
+Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
+	
 Set up environments for future development. (Linux/ docker)  
-	Research on how to use MOC(Mass Open Cloud)
-	Get the NIST dataset and research on training the ML model. 
+
+Research on how to use MOC(Mass Open Cloud)
+
+Get the NIST dataset and research on training the ML model. 
 
 
 ** **
