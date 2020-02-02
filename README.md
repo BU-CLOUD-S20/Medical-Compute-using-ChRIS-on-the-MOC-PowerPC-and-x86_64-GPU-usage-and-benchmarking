@@ -45,7 +45,7 @@ Global Architectural Structure Of the Project:
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
  
-<center><img src="./diagram001.png" width=75% display=block></img></center>
+<center><img src="./Screen Shot 2020-02-01 at 20.28.12.png" width=75% display=block></img></center>
 
 Design Implications and Discussion:
 
