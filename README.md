@@ -53,7 +53,7 @@ This section provides a high-level architecture or a conceptual diagram showing 
 
 ### Design Implications and Discussion:
 
-The goal for the ChRIS platform is to provide a containerized application that is made up of many nodes which run specific functions on inputs. The scope for our portion of the project is to develop one node that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the node easy to use and integate with a clinician or technicians workflow. 
+The goal for the ChRIS platform is to provide a containerized application that is made up of many nodes which run specific functions on inputs. The scope for our portion of the project is to develop one node that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the node easy to use and integrate with a clinician or technicians workflow. 
 
 The implications for our global architecture design are to allow for clinicians using ChRIS to benchmark different architectures to find the archtecture that works the fastest for given medical computations.
 
