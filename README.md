@@ -25,9 +25,10 @@ User Persona Examples:
 - Healthcare organizations who want to be on the cutting edge of medical computing technology and analysis so that they can provide the best healthcare for their patients.
 
 
-- Non-target users are:
-Clinicians/Technicians who don’t use MOC, ChRIS.
-Users do not use PowerPC and x86_64 as their architecture
+
+Non-target users are:
+- Clinicians/Technicians who don’t use MOC, ChRIS.
+- Users do not use PowerPC and x86_64 as their architecture
 
 
 ** **
@@ -43,18 +44,18 @@ At last, this node will produce comparable results that allow users to compare t
 
 ## 4. Solution Concept
 
-This section provides a high-level outline of the solution.
-
-Global Architectural Structure Of the Project:
+### Global Architectural Structure Of the Project:
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
  
 <center><img src="./Screen Shot 2020-02-01 at 20.28.12.png" width=75% display=block></img></center>
 
-Design Implications and Discussion:
+### Design Implications and Discussion:
 
-This section discusses the implications and reasons for the design decisions made during the global architecture design.
+The goal for the ChRIS platform is to provide a containerized application that is made up of many nodes which run specific functions on inputs. The scope for our portion of the project is to develop one node that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the node easy to use and integate with a clinician or technicians workflow. 
+
+The implications for our global architecture design are to allow for clinicians using ChRIS to benchmark different architectures to find the archtecture that works the fastest for given medical computations.
 
 ## 5. Acceptance criteria
 
