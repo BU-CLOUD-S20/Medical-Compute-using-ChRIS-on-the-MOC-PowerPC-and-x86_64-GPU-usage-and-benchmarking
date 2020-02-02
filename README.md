@@ -2,25 +2,34 @@
 
 ## 1.   Vision and Goals Of The Project:
 
-The vision section describes the final desired state of the project once the project is complete. It also specifies the key goals of the project. This section provides a context for decision-making. A shared vision among all team members can help ensuring that the solution meets the intended goals. A solid vision clarifies perspective and facilitates decision-making.
+Develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform as a sample application that could show the performance differences between different machine architectures.
 
-The vision statement should be specific enough that you can look at a proposed solution and say either "yes, this meets the vision and goals", or "no, it does not".
+** High-level goals include:**
+Develop a sample test ChRIS plugin for benchmarking purposes.
+Improve and extend the test applications on ChRIS in order to simulate a more similar working environment.
+Improve the benchmarking ChRIS plugin code in order to extend the portability for all platforms.
 
 ## 2. Users/Personas Of The Project:
 
-This section describes the principal user roles of the project together with the key characteristics of these roles. This information will inform the design and the user scenarios. A complete set of roles helps in ensuring that high-level requirements can be identified in the product backlog.
+User Persona Examples:
+Clinicians/Technicians want software that is easy to use, informative when helping them make a diagnosis and computes quick results so that they can maximize their time with their patients and make more informed decisions. 
+Researchers want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data
 
-Again, the description should be specific enough that you can determine whether user A, performing action B, is a member of the set of users the project is designed for.
+Non-target users are:
+Clinicians/Technicians who don’t use MOC, ChRIS.
+Users do not use PowerPC and x86_64 as their architecture
+
 
 ** **
 
 ## 3.   Scope and Features Of The Project:
 
-The Scope places a boundary around the solution by detailing the range of features and functions of the project. This section helps to clarify the solution scope and can explicitly state what will not be delivered as well.
+We will focus on one node which provides a series of tools and test functions to test the performance of the system. The test functions may cover from a simple matrix multiplying to a huge neural network training, to represent the real workloads that may be deployed on the system. For example, if the real functions move data between main memory and GPU memory frequently, our functions are supposed to show this feature.
 
-It should be specific enough that you can determine that e.g. feature A is in-scope, while feature B is out-of-scope.
 
-** **
+However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast, estimating time may spend on running real computing tasks in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmark for 8 hours rather than run a real task for 8 hours to ESTIMATE the performance.
+
+At last, this node will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
 ## 4. Solution Concept
 
@@ -31,31 +40,31 @@ Global Architectural Structure Of the Project:
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
  
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/a12e5f4e-70fb-4e7e-8697-9bad03f083b1" id="SU2tApcXWR5O"></iframe></div>
 
 Design Implications and Discussion:
 
-This section discusses the implications and reasons of the design decisions made during the global architecture design.
+This section discusses the implications and reasons for the design decisions made during the global architecture design.
 
 ## 5. Acceptance criteria
 
-This section discusses the minimum acceptance criteria at the end of the project and stretch goals.
+Correctly developed a runnable ChRIS plugin that to some extent presents the performance difference between different platform architectures.
+The minimal product presents the benchmark differences between x86 and PowerPC.
+
 
 ## 6.  Release Planning:
 
-Release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher level details for the first iteration is expected.
+The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
+
+Sprint 1: February 12th, 2020
+	Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
+Set up environments for future development. (Linux/ docker)  
+	Research on how to use MOC(Mass Open Cloud)
+	Get the NIST dataset and research on training the ML model. 
+
 
 ** **
 
 ## General comments
 
-Remember that you can always add features at the end of the semester, but you can't go back in time and gain back time you spent on features that you couldn't complete.
-
-** **
-
-For more help on markdown, see
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
-
-In particular, you can add images like this (clone the repository to see details):
-
-![alt text](https://github.com/BU-NU-CLOUD-SP18/sample-project/raw/master/cloud.png "Hover text")
 
