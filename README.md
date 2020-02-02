@@ -4,18 +4,23 @@
 
 Develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform as a sample application that could show the performance differences between different machine architectures.
 
-** High-level goals include:**
-Develop a sample test ChRIS plugin for benchmarking purposes.
-Improve and extend the test applications on ChRIS in order to simulate a more similar working environment.
-Improve the benchmarking ChRIS plugin code in order to extend the portability for all platforms.
+### High-level goals include:
+
+- Develop a sample test ChRIS plugin for benchmarking purposes.
+
+- Improve and extend the test applications on ChRIS in order to simulate a more similar working environment.
+
+- Improve the benchmarking ChRIS plugin code in order to extend the portability for all platforms.
 
 ## 2. Users/Personas Of The Project:
 
 User Persona Examples:
-Clinicians/Technicians want software that is easy to use, informative when helping them make a diagnosis and computes quick results so that they can maximize their time with their patients and make more informed decisions. 
-Researchers want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data
 
-Non-target users are:
+- Clinicians/Technicians want software that is easy to use, informative when helping them make a diagnosis and computes quick results so that they can maximize their time with their patients and make more informed decisions. 
+
+- Researchers want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data
+
+- Non-target users are:
 Clinicians/Technicians who don’t use MOC, ChRIS.
 Users do not use PowerPC and x86_64 as their architecture
 
@@ -39,7 +44,8 @@ Global Architectural Structure Of the Project:
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
-<center><img src="./diagram001.png" width=75% display=block></img></center>
+ 
+<div style="width: 640px; height: 480px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:640px; height:480px" src="https://www.lucidchart.com/documents/embeddedchart/a12e5f4e-70fb-4e7e-8697-9bad03f083b1" id="SU2tApcXWR5O"></iframe></div>
 
 Design Implications and Discussion:
 
