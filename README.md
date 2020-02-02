@@ -2,7 +2,11 @@
 
 ## 1.   Vision and Goals Of The Project:
 
-Develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform as a sample application that could show the performance differences between different machine architectures.
+
+The overall vision of the ChRIS project is to act as an open source framework that makes medical analysis development more accessible to developers and allows healthcare organizations to provide medical analytics on their data in the cloud. 
+
+The primary goal for our project is to develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform. This application will be a sample application that can show the performance differences between different machine architectures.
+
 
 ### High-level goals include:
 
@@ -15,10 +19,11 @@ Develop a Machine Learning/ Neural Network containerized application (or any oth
 ## 2. Users/Personas Of The Project:
 
 User Persona Examples:
+- Clinicians/Technicians want software that is easy to use, that is informative when helping them make a diagnosis and that is able to compute results quickly so that clinicians can maximize their time with their patients and make more informed decisions. 
+- Researchers/Developers who want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data in the cloud.
+- Healthcare organizations who want their doctors to make data driven diagnoses about patients so that the organization increases their credibility and reliability. 
+- Healthcare organizations who want to be on the cutting edge of medical computing technology and analysis so that they can provide the best healthcare for their patients.
 
-- Clinicians/Technicians want software that is easy to use, informative when helping them make a diagnosis and computes quick results so that they can maximize their time with their patients and make more informed decisions. 
-
-- Researchers want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data
 
 - Non-target users are:
 Clinicians/Technicians who don’t use MOC, ChRIS.
