@@ -78,6 +78,31 @@ Research on how to use MOC(Mass Open Cloud)
 Get the NIST dataset and research on training the ML model. 
 
 
+### Sprint 2: February 26, 2020
+
+Build out the Machine learning/ neural network application
+
+Be able to run operations on the MOC computers
+
+Be able to run nodes from the local ChRIS instance
+
+### Sprint 3: March 7, 2020
+
+Be able to run a preexisting node via ChRIS on the MOC GPUs.
+
+Develop benchmarking metrics to analyze node processes. 
+
+Upload our Machine learning/ neural network application node to a ChRIS instance using containerization.
+
+### Sprint 4: March 20, 2020
+
+Integrate our node into the app store.
+
+Get more granular with benchmarking metrics
+
+
+
+
 ** **
 
 ## General comments
