@@ -2,7 +2,11 @@
 
 ## 1.   Vision and Goals Of The Project:
 
-Develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform as a sample application that could show the performance differences between different machine architectures.
+
+The overall vision of the ChRIS project is to act as an open source framework that makes medical analysis development more accessible to developers and allows healthcare organizations to provide medical analytics on their data in the cloud. 
+
+The primary goal for our project is to develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform. This application will be a sample application that can show the performance differences between different machine architectures.
+
 
 ### High-level goals include:
 
@@ -15,14 +19,16 @@ Develop a Machine Learning/ Neural Network containerized application (or any oth
 ## 2. Users/Personas Of The Project:
 
 User Persona Examples:
+- Clinicians/Technicians want software that is easy to use, that is informative when helping them make a diagnosis and that is able to compute results quickly so that clinicians can maximize their time with their patients and make more informed decisions. 
+- Researchers/Developers who want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data in the cloud.
+- Healthcare organizations who want their doctors to make data driven diagnoses about patients so that the organization increases their credibility and reliability. 
+- Healthcare organizations who want to be on the cutting edge of medical computing technology and analysis so that they can provide the best healthcare for their patients.
 
-- Clinicians/Technicians want software that is easy to use, informative when helping them make a diagnosis and computes quick results so that they can maximize their time with their patients and make more informed decisions. 
 
-- Researchers want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data
 
-- Non-target users are:
-Clinicians/Technicians who don’t use MOC, ChRIS.
-Users do not use PowerPC and x86_64 as their architecture
+Non-target users are:
+- Clinicians/Technicians who don’t use MOC, ChRIS.
+- Users do not use PowerPC and x86_64 as their architecture
 
 
 ** **
@@ -38,18 +44,18 @@ At last, this node will produce comparable results that allow users to compare t
 
 ## 4. Solution Concept
 
-This section provides a high-level outline of the solution.
-
-Global Architectural Structure Of the Project:
+### Global Architectural Structure Of the Project:
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
  
 <center><img src="./Screen Shot 2020-02-01 at 20.28.12.png" width=75% display=block></img></center>
 
-Design Implications and Discussion:
+### Design Implications and Discussion:
 
-This section discusses the implications and reasons for the design decisions made during the global architecture design.
+The goal for the ChRIS platform is to provide a containerized application that is made up of many nodes which run specific functions on inputs. The scope for our portion of the project is to develop one node that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the node easy to use and integrate with a clinician or technicians workflow. 
+
+The implications for our global architecture design are to allow for clinicians using ChRIS to benchmark different architectures to find the archtecture that works the fastest for given medical computations.
 
 ## 5. Acceptance criteria
 
@@ -61,11 +67,40 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
-Sprint 1: February 12th, 2020
-	Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
+### Sprint 1: February 12th, 2020
+
+Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
+	
 Set up environments for future development. (Linux/ docker)  
-	Research on how to use MOC(Mass Open Cloud)
-	Get the NIST dataset and research on training the ML model. 
+
+Research on how to use MOC(Mass Open Cloud)
+
+Get the NIST dataset and research on training the ML model. 
+
+
+### Sprint 2: February 26, 2020
+
+Build out the Machine learning/ neural network application
+
+Be able to run operations on the MOC computers
+
+Be able to run nodes from the local ChRIS instance
+
+### Sprint 3: March 7, 2020
+
+Be able to run a preexisting node via ChRIS on the MOC GPUs.
+
+Develop benchmarking metrics to analyze node processes. 
+
+Upload our Machine learning/ neural network application node to a ChRIS instance using containerization.
+
+### Sprint 4: March 20, 2020
+
+Integrate our node into the app store.
+
+Get more granular with benchmarking metrics
+
+
 
 
 ** **
