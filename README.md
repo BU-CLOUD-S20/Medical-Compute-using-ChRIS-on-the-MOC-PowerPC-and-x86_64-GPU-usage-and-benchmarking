@@ -20,13 +20,14 @@ The primary goal for our project is to develop a Machine Learning/ Neural Networ
 
 User Persona Examples:
 - ChRIS developers and ChRIS administrators who want to understand how the ChRIS platform runs on different network topologies. 
-- Researchers/Developers who want to benchmark and compare clusters for their experiments.
+- Researchers/Developers who want to benchmark and compare the efficiency of clusters for their experiments.
 
 
 
 
 Non-target users are:
 - Clinicians/Technicians who don’t use MOC, ChRIS.
+- Healthcare organizations or doctors who are using ChRIS
 - Users do not use PowerPC and x86_64 as their architecture
 
 
