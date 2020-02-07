@@ -1,5 +1,22 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
+## 0.   Contributors:
+
+**Mentor**: Rudolph Pienaar (rudolphpienaar)
+
+**Group Members**:
+
+Elizabeth Slade (emslade23)
+
+Shineun Yoon (ShineunYoon)
+
+Bowen Jia (jbw0410)
+
+Haoyang Wang (PupilTong)
+
+Kefan Zhang (h4x0rMadness)
+
+
 ## 1.   Vision and Goals Of The Project:
 
 
