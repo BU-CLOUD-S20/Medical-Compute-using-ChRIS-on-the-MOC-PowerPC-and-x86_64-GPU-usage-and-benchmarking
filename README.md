@@ -6,15 +6,15 @@
 
 **Group Members**:
 
-Elizabeth Slade (emslade23)
+Elizabeth Slade (https://github.com/emslade23)
 
-Shineun Yoon (ShineunYoon)
+Shineun Yoon (https://github.com/ShineunYoon)
 
-Bowen Jia (jbw0410)
+Bowen Jia (https://github.com/jbw0410)
 
-Haoyang Wang (PupilTong)
+Haoyang Wang (https://github.com/PupilTong)
 
-Kefan Zhang (h4x0rMadness)
+Kefan Zhang (https://github.com/h4x0rMadness)
 
 
 ## 1.   Vision and Goals Of The Project:
