@@ -42,7 +42,7 @@ We will focus on one plug-in which provides a series of tools and test functions
 
 However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast, estimating time may spend on running real computing tasks in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmark for 8 hours rather than run a real task for 8 hours to ESTIMATE the performance.
 
-At last, this node will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
+At last, this plugin will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
 ## 4. Solution Concept
 
@@ -55,7 +55,7 @@ This section provides a high-level architecture or a conceptual diagram showing 
 
 ### Design Implications and Discussion:
 
-The goal for the ChRIS platform is to provide a containerized application that is made up of many nodes which run specific functions on inputs. The scope for our portion of the project is to develop one node that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the node easy to use and integrate with a clinician or technicians workflow. 
+The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the plugin easy to use and integrate with a clinician or technicians workflow. 
 
 The implications for our global architecture design are to allow for clinicians using ChRIS to benchmark different architectures to find the archtecture that works the fastest for given medical computations.
 
@@ -86,19 +86,19 @@ Build out the Machine learning/ neural network application
 
 Be able to run operations on the MOC computers
 
-Be able to run nodes from the local ChRIS instance
+Be able to run plugins from the local ChRIS instance
 
 ### Sprint 3: March 7, 2020
 
-Be able to run a preexisting node via ChRIS on the MOC GPUs.
+Be able to run a pre-existent plugin via ChRIS on the MOC GPUs.
 
-Develop benchmarking metrics to analyze node processes. 
+Develop benchmarking metrics to analyze plugin processes. 
 
-Upload our Machine learning/ neural network application node to a ChRIS instance using containerization.
+Upload our Machine learning/ neural network application plugin to a ChRIS instance using containerization.
 
 ### Sprint 4: March 20, 2020
 
-Integrate our node into the app store.
+Integrate our plugin into the app store.
 
 Get more granular with benchmarking metrics
 
