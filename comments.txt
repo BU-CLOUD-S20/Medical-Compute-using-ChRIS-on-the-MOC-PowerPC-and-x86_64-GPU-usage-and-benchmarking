@@ -1,0 +1,24 @@
+0.
+
+names and mentor and links
+
+
+1.
+
+- change ChRIS into benchmarking
+
+2.UserxPersonas Of the project
+
+- for benchmarking: just focus on ChRIS developers / administrators instead of patients or doctors
+
+- real world situation is so much different from just the device
+
+3.
+
+- modify terminologies not clear to other people
+
+4.
+
+- "not decided yet" on specific GPU task (matrix multiplying or ...)
+
+
