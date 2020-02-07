@@ -16,22 +16,26 @@ Haoyang Wang (https://github.com/PupilTong)
 
 Kefan Zhang (https://github.com/h4x0rMadness)
 
+**ChRIS Introduction**:
+
+Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
+
+Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
 ## 1.   Vision and Goals Of The Project:
 
+The overall vision of this project is to develop a plugin based on ChRIS platform so that users like developers or administritors are able to do benchmarking between different architectures like x86 and PowerPC.
 
-The overall vision of the ChRIS project is to act as an open source framework that makes medical analysis development more accessible to developers and allows healthcare organizations to provide medical analytics on their data in the cloud. 
-
-The primary goal for our project is to develop a Machine Learning/ Neural Network containerized application (or any other appropriate test application) plugin for the ChRIS platform. This application will be a sample application that can show the performance differences between different machine architectures.
+For the following sprints of this project, we are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components and implement the benchmarking plugin on ChRIS platform for the future use.
 
 
 ### High-level goals include:
 
-- Develop a sample test ChRIS plugin for benchmarking purposes.
 
-- Improve and extend the test applications on ChRIS in order to simulate a more similar working environment.
+- Improve the functions of our benchmarking ChRIS plugin 
 
-- Improve the benchmarking ChRIS plugin code in order to extend the portability for all platforms.
+- Use the real work environment to further improve the ChRIS plugin to better benchmark
+
 
 ## 2. Users/Personas Of The Project:
 
