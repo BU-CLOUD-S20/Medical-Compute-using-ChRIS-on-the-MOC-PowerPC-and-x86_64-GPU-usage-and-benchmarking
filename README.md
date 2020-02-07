@@ -27,8 +27,10 @@ User Persona Examples:
 
 Non-target users are:
 - Clinicians/Technicians who don’t use MOC, ChRIS.
-- Healthcare organizations or doctors who are using ChRIS
-- Users do not use PowerPC and x86_64 as their architecture
+- Clinicians/Technicians want software that is easy to use, that is informative when helping them make a diagnosis and that is able to compute results quickly so that clinicians can maximize their time with their patients and make more informed decisions. 
+- Researchers/Developers who want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data in the cloud.
+- Healthcare organizations who want their doctors to make data driven diagnoses about patients so that the organization increases their credibility and reliability. 
+- Healthcare organizations who want to be on the cutting edge of medical computing technology and analysis so that they can provide the best healthcare for their patients.
 
 
 ** **
