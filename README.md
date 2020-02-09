@@ -71,9 +71,6 @@ At last, this plugin will produce comparable results that allow users to compare
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
- 
-<center><img src="./Screen Shot 2020-02-01 at 20.28.12.png" width=75% display=block></img></center>
-
 ### Design Implications and Discussion:
 
 The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the plugin easy to use and integrate with a clinician or technicians workflow. 
