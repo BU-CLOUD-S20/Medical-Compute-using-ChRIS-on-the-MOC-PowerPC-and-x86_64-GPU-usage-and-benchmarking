@@ -24,7 +24,7 @@ Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/p
 
 ## 1.   Vision and Goals Of The Project:
 
-The overall vision of this project is to develop a plugin based on ChRIS platform so that users like developers or administritors are able to do benchmarking between different architectures like x86 and PowerPC.
+The overall vision of this project is to develop a plugin based on ChRIS platform so that users like developers or administritors are able to do GPU benchmarking between different architectures like x86 and PowerPC.
 
 For the following sprints of this project, we are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components and implement the benchmarking plugin on ChRIS platform for the future use.
 
@@ -88,12 +88,11 @@ Set up environments for future development. (Linux/ docker)
 
 Research on how to use MOC(Mass Open Cloud)
 
-Get the NIST dataset and research on training the ML model. 
-
+Build a simple benchmarking programm and run it locally, e.g. Matrix-multiplying. 
 
 ### Sprint 2: February 26, 2020
 
-Build out the Machine learning/ neural network application
+Research on a more complex benchmarking programm, e.g. 'Real-Time Object Detection on GPU'. 
 
 Be able to run operations on the MOC computers
 
