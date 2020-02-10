@@ -26,8 +26,6 @@ Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/p
 
 The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do GPU benchmarking between different architectures like x86 and PowerPC.
 
-For the scope of our particular project for EC528: Cloud Computing, we will implement a benchmarking plugin on ChRIS platform to compare different .
-
 We are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components
 
 
