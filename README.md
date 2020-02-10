@@ -31,7 +31,6 @@ For the following sprints of this project, we are going to get familiar with Mas
 
 ### High-level goals include:
 
-
 - Improve the functions of our benchmarking ChRIS plugin 
 
 - Use the real work environment to further improve the ChRIS plugin to better benchmark
@@ -40,18 +39,12 @@ For the following sprints of this project, we are going to get familiar with Mas
 ## 2. Users/Personas Of The Project:
 
 User Persona Examples:
-- ChRIS developers and ChRIS administrators who want to understand how the ChRIS platform runs on different network topologies. 
-- Researchers/Developers who want to benchmark and compare the efficiency of different network topologies for their experiments.
 
-
-
+- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performances on different architectures such as x86 vs PowerPC, therefore I want a ChRIS plugin that does benchmarking between those architectures.
 
 Non-target users are:
-- Clinicians/Technicians who don’t use MOC, ChRIS.
-- Clinicians/Technicians want software that is easy to use, that is informative when helping them make a diagnosis and that is able to compute results quickly so that clinicians can maximize their time with their patients and make more informed decisions. 
-- Researchers/Developers who want an open-source environment with accessible documentation, efficient computational resources, and useful plug-ins so that they can conduct efficient experiments on medical data in the cloud.
-- Healthcare organizations who want their doctors to make data driven diagnoses about patients so that the organization increases their credibility and reliability. 
-- Healthcare organizations who want to be on the cutting edge of medical computing technology and analysis so that they can provide the best healthcare for their patients.
+
+- Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
 
 
 ** **
@@ -61,7 +54,7 @@ Non-target users are:
 We will focus on one plug-in which provides a series of tools and test functions to test the performance of the system. The test functions may cover from a simple matrix multiplying to a huge neural network training, to represent the real workloads that may be deployed on the system. For example, if the real functions move data between main memory and GPU memory frequently, our functions are supposed to show this feature.
 
 
-However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast, estimating time may spend on running real computing tasks in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmark for 8 hours rather than run a real task for 8 hours to ESTIMATE the performance.
+However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast, estimating time may spend on running real computing tasks in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmarking task for 8 hours rather than run a real task for 8 hours to ESTIMATE the performance.
 
 At last, this plugin will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
@@ -73,13 +66,13 @@ This section provides a high-level architecture or a conceptual diagram showing 
 
 ### Design Implications and Discussion:
 
-The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design decision is to make the plugin easy to use and integrate with a clinician or technicians workflow. 
+The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design is to make the plugin easy to use and integrate with a ChRIS developers workflow. 
 
-The implications for our global architecture design are to allow for clinicians using ChRIS to benchmark different architectures to find the archtecture that works the fastest for given medical computations.
+The implications for our global architecture design are to allow ChRIS developers to use ChRIS to benchmark different architectures to find which one maximize their ChRIS plugin performance.
 
 ## 5. Acceptance criteria
 
-Correctly developed a runnable ChRIS plugin that to some extent presents the performance difference between different platform architectures.
+Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
 The minimal product presents the benchmark differences between x86 and PowerPC.
 
 
