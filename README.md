@@ -24,9 +24,11 @@ Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/p
 
 ## 1.   Vision and Goals Of The Project:
 
-The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do GPU benchmarking between different architectures like x86 and PowerPC.
+The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do benchmarking on cloud network topologies that include different architectures like x86 and PowerPC.
 
-We are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components
+We are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components.
+
+Our benchmarking plug-in will be the first ChRIS plug-in that can test performance of the ChRIS platform
 
 
 ### High-level goals include:
