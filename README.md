@@ -28,7 +28,7 @@ The overall vision of the ChRIS project is to develop a plugin based on ChRIS pl
 
 We are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components.
 
-Our benchmarking plug-in will be the first ChRIS plug-in that can test performance of the ChRIS platform
+Our benchmarking plug-in will be the first ChRIS plug-in that can test performance of the ChRIS platform.
 
 
 ### High-level goals include:
@@ -42,7 +42,7 @@ Our benchmarking plug-in will be the first ChRIS plug-in that can test performan
 
 User Persona Examples:
 
-- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performs on different architectures such as x86 vs PowerPC that are connected to different cloud network topologies, therefore I want a ChRIS plugin that performs benchmarking tests on such infrastructures.
+- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performs on different architectures such as x86 vs PowerPC therefore I want a ChRIS plugin that performs benchmarking tests on these architectures.
 
 Non-target users are:
 
