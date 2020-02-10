@@ -24,9 +24,11 @@ Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/p
 
 ## 1.   Vision and Goals Of The Project:
 
-The overall vision of this project is to develop a plugin based on ChRIS platform so that users like developers or administritors are able to do GPU benchmarking between different architectures like x86 and PowerPC.
+The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do GPU benchmarking between different architectures like x86 and PowerPC.
 
-For the following sprints of this project, we are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components and implement the benchmarking plugin on ChRIS platform for the future use.
+For the scope of our particular project for EC528: Cloud Computing, we will implement a benchmarking plugin on ChRIS platform to compare different .
+
+We are going to get familiar with Mass Open Cloud, ChRIS platform, ChRIS plugins and benchmarking methods in order to integrate all the components
 
 
 ### High-level goals include:
@@ -40,21 +42,23 @@ For the following sprints of this project, we are going to get familiar with Mas
 
 User Persona Examples:
 
-- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performances on different architectures such as x86 vs PowerPC, therefore I want a ChRIS plugin that does benchmarking between those architectures.
+- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performs on different architectures such as x86 vs PowerPC that are connected to different cloud network topologies, therefore I want a ChRIS plugin that performs benchmarking tests on such infrastructures.
 
 Non-target users are:
 
 - Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
 
 
+
 ** **
 
 ## 3.   Scope and Features Of The Project:
 
-We will focus on one plug-in which provides a series of tools and test functions to test the performance of the system. The test functions may cover from a simple matrix multiplying to a huge neural network training, to represent the real workloads that may be deployed on the system. For example, if the real functions move data between main memory and GPU memory frequently, our functions are supposed to show this feature.
+
+We will focus on one plug-in which provides a series of tools and test functions to test the performance of the system. Based on what we decide is feasible, the test functions may range from a simple matrix multiplying to huge neural network training. These test functions will represent real workloads that may be deployed on the system. For example, if the real functions move data between main memory and GPU memory frequently, our functions are supposed to show this feature.
 
 
-However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast, estimating time may spend on running real computing tasks in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmarking task for 8 hours rather than run a real task for 8 hours to ESTIMATE the performance.
+However, we are not focusing on building a precious and complex machine learning model or data processing method. All test functions will run fast and estimate the time that may be spent on running real computing tasks. These tests will run in an acceptable time span, like several minutes. Therefore, they should emulate the real ChRIS workloads as light as possible. Since there is no reason to run a benchmarking task for 8 hours rather than run a real task for 8 hours, we will ESTIMATE the performance.
 
 At last, this plugin will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
