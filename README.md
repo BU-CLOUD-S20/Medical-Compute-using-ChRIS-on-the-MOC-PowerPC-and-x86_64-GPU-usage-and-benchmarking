@@ -104,11 +104,10 @@ Be able to run a pre-existent plugin via ChRIS on the MOC GPUs.
 
 Develop benchmarking metrics to analyze plugin processes. 
 
-Upload our Machine learning/ neural network application plugin to a ChRIS instance using containerization.
 
 ### Sprint 4: March 20, 2020
 
-Integrate our plugin into the app store.
+Integrate our plugin into the ChRIS platform.
 
 Get more granular with benchmarking metrics
 
