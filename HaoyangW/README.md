@@ -1,6 +1,7 @@
 # update & plan & log
 ## Done
 ### MatMul: coding
+### MatMul: Scalable
 ### Object Detection: Scalable
 ### Object Detection: remove webcam requirement
 ### Object Detection: add test video
@@ -13,3 +14,4 @@
 ## Plan
 ### Object Detection: test on chris
 ### Object Detection: test the conatiner on powerPC (will collaborate with jeff & Elizabeth Slade)
+### MatMul: fix bugs
