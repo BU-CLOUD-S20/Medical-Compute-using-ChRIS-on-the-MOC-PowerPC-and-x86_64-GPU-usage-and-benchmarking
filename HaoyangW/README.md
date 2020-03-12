@@ -1,7 +1,15 @@
 # update & plan & log
-## March 3
-### for FNNDSC/object-detection-tensorrt-example
-#### fix bugs in dockerfile
-#### remove webcam requirement
-#### add test video
-#### modify source code to support video input & video output
+## Done
+### MatMul: coding
+### Object Detection: Scalable
+### Object Detection: remove webcam requirement
+### Object Detection: add test video
+### Object Detection: modify source code to support video input & video output
+### Object Detection: fix bugs in dockerfile
+## Testing
+### Object Detection: fix bugs in code
+### Object Detection: test on titan
+### Object Detection: collaborating with Blair to build a chris plugin
+## Plan
+### Object Detection: test on chris
+### Object Detection: test the conatiner on powerPC (will collaborate with jeff & Elizabeth Slade)
