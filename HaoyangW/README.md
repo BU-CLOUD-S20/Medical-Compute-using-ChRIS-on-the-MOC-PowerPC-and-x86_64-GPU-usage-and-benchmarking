@@ -7,7 +7,9 @@
 ### Object Detection: add test video
 ### Object Detection: modify source code to support video input & video output
 ### Object Detection: fix bugs in dockerfile
-### MatMul: fix bugs: CUDA driver not found
+### MatMul: 
+fix bugs: CUDA driver not found
+(use nvidia cuda image rather than fnndsc image)
 ## Aborded
 ### Object Detection: test on titan
 ## Testing
