@@ -130,6 +130,8 @@ https://docs.google.com/presentation/d/1YQ5Jg-ek9q0KNLdDgN3uF2i2k72bBYIeSLijLClm
 
 ** **
 
-## General comments
+## Lecture on Spark: April 6, 2020
+https://docs.google.com/presentation/d/1NgW_wVI9jGW7v0X-wA9BJ5P7Y8_vDF1GhuCA8n1NmFs/edit?usp=sharing
 
+Our team gave a class talk on Spark, which is a distributed computing framework designed for applications.
 
