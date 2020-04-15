@@ -17,7 +17,7 @@ Haoyang Wang (https://github.com/PupilTong)
 
 Kefan Zhang (https://github.com/h4x0rMadness)
 
-**ChRIS Introduction**:
+## 0.   ChRIS Introduction:
 
 Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
 
