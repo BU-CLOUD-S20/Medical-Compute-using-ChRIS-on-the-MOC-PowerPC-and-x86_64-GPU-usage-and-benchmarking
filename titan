@@ -1,0 +1,140 @@
+ssh -g -f -N -X -p 7778 -L 7639:localhost:7639 chris@108.49.45.138
+
+ssh -X -p 7639 chris-local@localhost
+
+http://fnndsc.childrens.harvard.edu:5055/signin
+
+workon chrisapp_env
+export HOST_IP=$(ip route | grep -v docker | awk '{if(NF==11) print $9}')
+export HOST_PORT=8000
+
+pfurl --auth chris:chris1234 --http ${HOST_IP}:8000/api/v1/plugins/ \
+    --quiet --jsonpprintindent 4
+
+
+pfurl --auth chris:chris1234 --verb POST                          \
+      --http ${HOST_IP}:${HOST_PORT}/api/v1/plugins/19/instances/ \
+      --content-type application/vnd.collection+json              \
+      --jsonwrapper 'template' --msg '
+{"data":
+    [{"name":"coenum",
+      "value":"32,32,128"}
+    ]
+}' \
+--quiet --jsonpprintindent 4
+
+                {
+                    "data": [
+                        {
+                            "name": "id",
+                            "value": 19
+                        },
+                        {
+                            "name": "name",
+                            "value": "matrixmultiply"
+                        },
+                        {
+                            "name": "dock_image",
+                            "value": "fnndsc/pl-matrixmultiply"
+                        },
+                        {
+                            "name": "creation_date",
+                            "value": "2020-04-13T14:59:15.889993-04:00"
+                        },
+                        {
+                            "name": "modification_date",
+                            "value": "2020-04-13T14:59:15.890071-04:00"
+                        },
+                        {
+                            "name": "type",
+                            "value": "ds"
+                        },
+                        {
+                            "name": "authors",
+                            "value": "kefan (kefan29@bu.edu)"
+                        },
+                        {
+                            "name": "title",
+                            "value": "A ChRIS plugin app"
+                        },
+                        {
+                            "name": "category",
+                            "value": ""
+                        },
+                        {
+                            "name": "description",
+                            "value": "An app to ..."
+                        },
+                        {
+                            "name": "documentation",
+                            "value": "http://wiki"
+                        },
+                        {
+                            "name": "license",
+                            "value": "Opensource (MIT)"
+                        },
+                        {
+                            "name": "version",
+                            "value": "0.1"
+                        },
+                        {
+                            "name": "execshell",
+                            "value": "python3"
+                        },
+                        {
+                            "name": "selfpath",
+                            "value": "/usr/src/matmultiply"
+                        },
+                        {
+                            "name": "selfexec",
+                            "value": "matmultiply.py"
+                        },
+                        {
+                            "name": "compute_resource_identifier",
+                            "value": "host"
+                        },
+                        {
+                            "name": "min_number_of_workers",
+                            "value": 1
+                        },
+                        {
+                            "name": "max_number_of_workers",
+                            "value": 1
+                        },
+                        {
+                            "name": "min_cpu_limit",
+                            "value": 1000
+                        },
+                        {
+                            "name": "max_cpu_limit",
+                            "value": 2147483647
+                        },
+                        {
+                            "name": "min_memory_limit",
+                            "value": 200
+                        },
+                        {
+                            "name": "max_memory_limit",
+                            "value": 2147483647
+                        },
+                        {
+                            "name": "min_gpu_limit",
+                            "value": 0
+                        },
+                        {
+                            "name": "max_gpu_limit",
+                            "value": 0
+                        }
+                    ],
+                    "href": "http://10.72.76.39:8000/api/v1/plugins/19/",
+                    "links": [
+                        {
+                            "rel": "parameters",
+                            "href": "http://10.72.76.39:8000/api/v1/plugins/19/parameters/"
+                        },
+                        {
+                            "rel": "instances",
+                            "href": "http://10.72.76.39:8000/api/v1/plugins/19/instances/"
+                        }
+                    ]
+                }
