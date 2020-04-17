@@ -1,0 +1,4 @@
+chrisapp
+pudb
+numpy
+numba
