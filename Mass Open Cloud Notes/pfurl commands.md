@@ -1,5 +1,7 @@
 ## pfurl commands
 
+If you are using pfcon to communicate with pman and pfioh, first you must create a service that can allow pfcon communicate with pman and pfioh on the MOC Power9 Cluster. Make sure that you have a local instance of pfcon running while you create the services.
+
 Creating an moc-ppc64le service on pfcon:
 
             pfurl --verb POST --raw \
