@@ -5,7 +5,7 @@ If you are using pfcon to communicate with pman and pfioh, first you must create
 Creating an moc-ppc64le service on pfcon:
 
             pfurl --verb POST --raw \
-              --http  10.0.0.244:5005/api/v1/cmd \
+              --http  {your host ip}:5005/api/v1/cmd \
               --httpResponseBodyParse \
               --jsonwrapper 'payload' \
               --msg \
@@ -33,7 +33,7 @@ Saying hello to the new pfcon moc-ppc64le service:
 
               pfurl --verb POST \
                     --raw \
-                    --http 10.0.0.244:5005/api/v1/cmd \
+                    --http {your host ip}:5005/api/v1/cmd \
                     --httpResponseBodyParse \
                     --jsonwrapper 'payload' \
                     --msg \
