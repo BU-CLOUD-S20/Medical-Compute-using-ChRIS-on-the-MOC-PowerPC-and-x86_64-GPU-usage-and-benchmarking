@@ -1,6 +1,13 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
- [Sprint 1 Presentation](https://docs.google.com/presentation/d/1Q2wXZ6P_aQ-WBZZ00wB3yAEC8cJ0w2DTWR_6CjPHYpg/edit?usp=sharing).
+## Project Repositories
+
+**Matrix Multiplication**
+
+
+**Object Detection**
+
+ 
 ## 0.   Contributors:
 
 **Mentor**: Rudolph Pienaar (rudolphpienaar)
