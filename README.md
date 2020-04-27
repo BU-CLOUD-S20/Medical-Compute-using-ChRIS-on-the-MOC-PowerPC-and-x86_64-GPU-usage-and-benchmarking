@@ -4,8 +4,15 @@
 
 **Matrix Multiplication**
 
+https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_x86_64
+
+https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_ppc64
 
 **Object Detection**
+
+https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86
+
+https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64
 
  
 ## 0.   Contributors:
