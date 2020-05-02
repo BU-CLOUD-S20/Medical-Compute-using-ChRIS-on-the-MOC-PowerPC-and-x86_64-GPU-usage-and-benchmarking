@@ -1,16 +1,15 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
-## Project docker image Repositories
+# Project docker image Repositories
 
-**Matrix Multiplication**
+## Matrix Multiplication
 
 https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_x86_64
 
 https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_ppc64
 
 
-Object Detection
----
+## Object Detection
 
 https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86
 
