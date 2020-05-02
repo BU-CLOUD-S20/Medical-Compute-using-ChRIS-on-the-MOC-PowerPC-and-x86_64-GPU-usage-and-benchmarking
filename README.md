@@ -2,7 +2,7 @@
 
 # Project 
 
-## Matrix Multiplication
+## Matrix Multiplication plugin
 
 ### Docker image
 
@@ -15,7 +15,7 @@ https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_ppc64
 
 [Matrix_multiply_moc_ppc64](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
 
-## Object Detection
+## Object Detection plugin
 
 ### Docker image
 
