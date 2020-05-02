@@ -1,6 +1,6 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
-## Project Repositories
+## Project docker image Repositories
 
 **Matrix Multiplication**
 
@@ -20,7 +20,7 @@ https://github.com/FNNDSC/objectdetection_example
 
 ### Implement
 
-### Build instructions
+#### Build instructions
 
 For ppc64le image, we cannot use the automatic build on docker hub. We have to build this conatiner locally and push it into docker hub.
 
@@ -32,7 +32,7 @@ For ppc64le image, we cannot use the automatic build on docker hub. We have to b
 
 ```
 
-## Deploy requirement
+### Deploy requirement
 Your host computer should be a linux os and installed CUDA 10.1 && nvidia container.
 
 For ppc64le machine:
@@ -43,16 +43,15 @@ For x86_64 machine:
 
 https://github.com/FNNDSC/pl-objectdetection_x86
 
-### main Dependencies
+#### main Dependencies
 ffmpeg
 opencv-python
 tensorflow
 tensorrt
 
-Run
----
+### Run
 
-### Using `docker run`
+#### Using `docker run`
 
 Check this repo for more information https://github.com/FNNDSC/objectdetection_example
 
@@ -72,12 +71,11 @@ docker run --security-opt label=type:nvidia_container_t    \
 ```
 
 
-How it works
-------
+### How it works
 
 *Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
 
-### Workflow
+#### Workflow
 
 *this image powered by previous url*
 
@@ -95,18 +93,18 @@ maximum_fps,minimum_fps,average_fps
 *(Result is gotten from a ppc64le machine)*
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
-### Benchmarking result.
+#### Benchmarking result.
 On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
-### Troubleshoot
+#### Troubleshoot
 
-#### Error opening video stream or file
+##### Error opening video stream or file
 
 This means the opencv didn't open the video file successfully. Check:
 
 * If the file exist
 * If the input video coding format is supported by curent version ffmpeg.
 
-#### Failed to establish a new connection
+##### Failed to establish a new connection
 
 Please contact the machine administrator to ensure the docker has the internet access ability.
 ## 0.   Contributors:
