@@ -4,32 +4,32 @@
 
 ## Matrix Multiplication plugin
 
-### Docker image
+### Docker Images
 
-https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_x86_64
+- [Matrix Multiply Plugin for x86_64 Architecture](https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_x86_64)
 
-https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_ppc64
+- [Matrix Multiply Plugin for Power9 Architecture](https://hub.docker.com/repository/docker/fnndsc/pl-matrixmultiply_moc_ppc64)
 
 ### Source code
-[Matrix_multiply_x86_64](https://github.com/FNNDSC/pl-matrixmultiply_moc_x86_64)
+- [Matrix_Multiply_x86_64 Source Code](https://github.com/FNNDSC/pl-matrixmultiply_moc_x86_64)
 
-[Matrix_multiply_moc_ppc64](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
+- [Matrix_Multiply_Power9 Source Code](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
 
 ## Object Detection plugin
 
 ### Docker image
 
-https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86
+- [Object Detection for x86 Architecture](https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86)
 
-https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64
+- [Object Detection for Power9 Archtecture](https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_moc_ppc64)
 
 ### Source code
 
-https://github.com/FNNDSC/pl-objectdetection_x86
+- [Object Detection x86 Source Code](https://github.com/FNNDSC/pl-objectdetection_x86)
 
-https://github.com/FNNDSC/pl-objectdetection_moc_ppc64
+- [Object Detection Power9 Source Code](https://github.com/FNNDSC/pl-objectdetection_moc_ppc64)
 
-https://github.com/FNNDSC/objectdetection_example
+- [Object Detection Example Source Code](https://github.com/FNNDSC/objectdetection_example)
 
 ### Implement
 
@@ -57,10 +57,11 @@ For x86_64 machine:
 https://github.com/FNNDSC/pl-objectdetection_x86
 
 #### main Dependencies
-ffmpeg
-opencv-python
-tensorflow
-tensorrt
+
+	ffmpeg
+	opencv-python
+	tensorflow
+	tensorrt
 
 ### Run
 
