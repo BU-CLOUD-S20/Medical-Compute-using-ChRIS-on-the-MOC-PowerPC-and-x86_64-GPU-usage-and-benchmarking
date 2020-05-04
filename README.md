@@ -176,7 +176,7 @@ maximum_fps,minimum_fps,average_fps
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
 
-## Running `pman` and `pfioh` on Mass Open Cloud
+## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
 
 ### Benchmarking result.
