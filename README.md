@@ -1,7 +1,7 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
 
-## 0.   ChRIS Introduction:
+## 0.   Introduction to ChRIS:
 
 - Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
 
@@ -25,13 +25,13 @@ Our benchmarking plug-in will be the first ChRIS plug-in that can test performan
 
 ## 2. Users/Personas Of The Project:
 
-User Persona Examples:
+- User Persona Examples:
 
-- As a ChRIS developer / administrator, I would like to have a way to test how my plugin performs on different architectures such as x86 vs PowerPC therefore I want a ChRIS plugin that performs benchmarking tests on these architectures.
+As a ChRIS developer / administrator, I would like to have a way to test how my plugin performs on different architectures such as x86 vs PowerPC therefore I want a ChRIS plugin that performs benchmarking tests on these architectures.
 
-Non-target users are:
+- Non-target users are:
 
-- Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
+Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
 
 
 ## 3.   Scope and Features Of The Project:
