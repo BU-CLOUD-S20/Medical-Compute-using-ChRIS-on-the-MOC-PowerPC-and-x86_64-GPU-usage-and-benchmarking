@@ -100,8 +100,7 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
 
-### Sprint 1: February 12th, 2020
-https://docs.google.com/presentation/d/1Q2wXZ6P_aQ-WBZZ00wB3yAEC8cJ0w2DTWR_6CjPHYpg/edit?usp=sharing
+### [Sprint 1: February 12th, 2020] (https://docs.google.com/presentation/d/1Q2wXZ6P_aQ-WBZZ00wB3yAEC8cJ0w2DTWR_6CjPHYpg/edit?usp=sharing)
 
 Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
 	
@@ -112,8 +111,7 @@ Research on how to use MOC(Mass Open Cloud)
 Build a simple benchmarking programm and run it locally, e.g. Matrix-multiplying. 
 
 
-### Sprint 2: February 26, 2020
-https://docs.google.com/presentation/d/1VaiilM10SGllF1NvFY-7M7gkcGYEISwBvZEgpl1rioc/edit?usp=sharing
+### [Sprint 2: February 26, 2020](https://docs.google.com/presentation/d/1VaiilM10SGllF1NvFY-7M7gkcGYEISwBvZEgpl1rioc/edit?usp=sharing)
 
 Research on a more complex benchmarking programm, e.g. 'Real-Time Object Detection on GPU'. 
 
@@ -121,29 +119,25 @@ Be able to run operations on the MOC computers
 
 Be able to run plugins from the local ChRIS instance
 
-### Sprint 3: March 7, 2020
-https://docs.google.com/presentation/d/1j4j9gbuXU0PqSLAmS5srqlPlIC8HRmfBWQe3xtvopHM/edit?usp=sharing
+### [Sprint 3: March 7, 2020](https://docs.google.com/presentation/d/1j4j9gbuXU0PqSLAmS5srqlPlIC8HRmfBWQe3xtvopHM/edit?usp=sharing)
 
 Be able to run a pre-existent plugin via ChRIS on the MOC GPUs.
 
 Develop benchmarking metrics to analyze plugin processes. 
 
 
-### Sprint 4: March 19, 2020
-https://docs.google.com/presentation/d/1NGK1S3wrcgw16NgElWnGRWkyDPuigEV01H0cjzWhFNg/edit?usp=sharing
+### [Sprint 4: March 19, 2020](https://docs.google.com/presentation/d/1NGK1S3wrcgw16NgElWnGRWkyDPuigEV01H0cjzWhFNg/edit?usp=sharing)
 
 Integrate our plugin into the ChRIS platform.
 
 Get more granular with benchmarking metrics
 
 
-### Sprint 5: April 2, 2020
-https://docs.google.com/presentation/d/1YQ5Jg-ek9q0KNLdDgN3uF2i2k72bBYIeSLijLClmZnA/edit?usp=sharing
+### [Sprint 5: April 2, 2020](https://docs.google.com/presentation/d/1YQ5Jg-ek9q0KNLdDgN3uF2i2k72bBYIeSLijLClmZnA/edit?usp=sharing)
 
 ** **
 
-## Lecture on Spark: April 6, 2020
-https://docs.google.com/presentation/d/1NgW_wVI9jGW7v0X-wA9BJ5P7Y8_vDF1GhuCA8n1NmFs/edit?usp=sharing
+## [Lecture on Spark: April 6, 2020](https://docs.google.com/presentation/d/1NgW_wVI9jGW7v0X-wA9BJ5P7Y8_vDF1GhuCA8n1NmFs/edit?usp=sharing)
 
 Our team gave a class talk on Spark, which is a distributed computing framework designed for applications.
 
