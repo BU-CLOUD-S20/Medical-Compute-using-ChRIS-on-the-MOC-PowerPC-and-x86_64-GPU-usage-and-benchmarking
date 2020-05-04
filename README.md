@@ -1,12 +1,24 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
+## Table of Contents
 
+[0. Introduction to ChRIS](#t1)
+[1. Vision and Goals Of The Project](#t2)
+[2. Users/Personas Of The Project](#t3)
+[3. Scope and Features Of The Project](#t4)
+[4. Solution Concept](#t5)
+[5. Acceptance criteria](#t6)
+[6. Release Planning](#t7)
+
+
+<a name="t1"></a>
 ## 0.   Introduction to ChRIS:
 
 - Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
 
 - Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
+<a name="t2"></a>
 ## 1.   Vision and Goals Of The Project:
 
 The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do benchmarking on cloud network topologies that include different architectures like x86 and PowerPC.
@@ -23,6 +35,7 @@ Our benchmarking plug-in will be the first ChRIS plug-in that can test performan
 - Use the real work environment to further improve the ChRIS plugin to better benchmark
 
 
+<a name="t3"></a>
 ## 2. Users/Personas Of The Project:
 
 - User Persona Examples:
@@ -34,6 +47,7 @@ As a ChRIS developer / administrator, I would like to have a way to test how my 
 Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
 
 
+<a name="t4"></a>
 ## 3.   Scope and Features Of The Project:
 
 
@@ -44,17 +58,20 @@ However, we are not focusing on building a precious and complex machine learning
 
 At last, this plugin will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
+<a name="t5"></a>
 ## 4. Solution Concept
 
 ### Global Architectural Structure Of the Project:
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
+<a name="t6"></a>
 ## 5. Acceptance criteria
 
 Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
 The minimal product presents the benchmark differences between x86 and PowerPC.
 
+<a name="t7"></a>
 ## 6.  Release Planning:
 
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
