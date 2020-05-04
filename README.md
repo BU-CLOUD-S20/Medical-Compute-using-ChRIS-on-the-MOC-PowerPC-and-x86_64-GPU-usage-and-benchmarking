@@ -156,7 +156,7 @@ The implications for our global architecture design are to allow ChRIS developer
 
 
 ** **
-## Product Documentation
+# Product Documentation
 
 ## I. Matrix Multiplication Plugin
 
