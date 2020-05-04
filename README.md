@@ -10,11 +10,6 @@
     + [Global Architectural Structure Of the Project:](#global-architectural-structure-of-the-project-)
   * [5. Acceptance criteria](#5-acceptance-criteria)
   * [6.  Release Planning:](#6--release-planning-)
-    + [Sprint 1: February 12th, 2020](#sprint-1--february-12th--2020)
-    + [Sprint 2: February 26, 2020](#sprint-2--february-26--2020)
-    + [Sprint 3: March 7, 2020](#sprint-3--march-7--2020)
-    + [Sprint 4: March 19, 2020](#sprint-4--march-19--2020)
-    + [Sprint 5: April 2, 2020](#sprint-5--april-2--2020)
   * [Lecture on Spark: April 6, 2020](#lecture-on-spark--april-6--2020)
   * [Contributors:](#contributors-)
     + [Design Implications and Discussion:](#design-implications-and-discussion-)
@@ -44,15 +39,9 @@
   * [Research and Development References](#research-and-development-references-1)
     + [Workflow](#workflow-1)
     + [Benchmarking result](#benchmarking-result)
-  * [Troubleshoot](#troubleshoot-1)
-      - [Error opening video stream or file](#error-opening-video-stream-or-file)
-      - [Failed to establish a new connection](#failed-to-establish-a-new-connection)
+  * [Troubleshoot](#troubleshoot-1)\
   * [Related Links](#related-links-1)
   * [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#running--pman--and--pfioh--on-power9-cluster-in-the-mass-open-cloud)
-    + [LIZZY](#lizzy)
-    + [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
-      - [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
-      - [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
 
 <a name="t1"></a>
 ## 0.   Introduction to ChRIS:
@@ -522,9 +511,6 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 
 
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
-
-### LIZZY
-
 ** **
 
 ### Troubleshooting Our Plug-ins
