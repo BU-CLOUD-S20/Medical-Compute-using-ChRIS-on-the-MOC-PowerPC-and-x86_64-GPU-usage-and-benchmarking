@@ -6,21 +6,21 @@
 
 **Group Members**:
 
-Elizabeth Slade (https://github.com/emslade23)
+- Elizabeth Slade (https://github.com/emslade23)
 
-Shineun Yoon (https://github.com/ShineunYoon)
+- Shineun Yoon (https://github.com/ShineunYoon)
 
-Bowen Jia (https://github.com/jbw0410)
+- Bowen Jia (https://github.com/jbw0410)
 
-Haoyang Wang (https://github.com/PupilTong)
+- Haoyang Wang (https://github.com/PupilTong)
 
-Kefan Zhang (https://github.com/h4x0rMadness)
+- Kefan Zhang (https://github.com/h4x0rMadness)
 
 ## 0.   ChRIS Introduction:
 
-Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
+- Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
 
-Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
+- Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
 ## 1.   Vision and Goals Of The Project:
 
