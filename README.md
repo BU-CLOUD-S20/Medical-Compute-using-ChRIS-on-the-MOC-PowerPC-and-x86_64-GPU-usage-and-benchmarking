@@ -14,6 +14,9 @@
 [5.   Acceptance criteria](#5---acceptance-criteria)<br/>
 [6.   Release Planning](#6---release-planning)<br/>
 
+### [Final Project Demonstaration]()
+[![Final Project Demonstaration](https://img.youtube.com/vi/1e_rx_YLQEw/0.jpg)](https://youtu.be/1e_rx_YLQEw)
+
 ### [Product Documentation](#product-documentation)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
