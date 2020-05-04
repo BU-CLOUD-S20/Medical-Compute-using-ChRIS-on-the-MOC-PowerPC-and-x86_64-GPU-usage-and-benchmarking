@@ -138,7 +138,7 @@ Get more granular with benchmarking metrics
 
 ### [Sprint 5: April 2, 2020](https://docs.google.com/presentation/d/1YQ5Jg-ek9q0KNLdDgN3uF2i2k72bBYIeSLijLClmZnA/edit?usp=sharing)
 
-### [Final Presentation](https://docs.google.com/presentation/d/1qJEkL9hwqAvVJLRmdV9ggfuaSdW3QREw2JFf2DviXn4/edit?usp=sharing)
+### [Final: May 4th, 2020](https://docs.google.com/presentation/d/1qJEkL9hwqAvVJLRmdV9ggfuaSdW3QREw2JFf2DviXn4/edit?usp=sharing)
 
 ** **
 
