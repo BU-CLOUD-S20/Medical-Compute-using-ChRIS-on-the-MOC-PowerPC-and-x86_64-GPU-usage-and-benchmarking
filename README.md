@@ -1,12 +1,12 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 ## Table of Content
-  * [0.   Introduction to ChRIS:](#0---introduction-to-chris-)
-  * [1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)
-  * [2. Users/Personas Of The Project:](#2-users-personas-of-the-project-)
-  * [3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)
-  * [4. Solution Concept](#4-solution-concept)
-  * [5. Acceptance criteria](#5-acceptance-criteria)
-  * [6.  Release Planning:](#6--release-planning-)
+[0.   Introduction to ChRIS:](#0---introduction-to-chris-)<br/>
+[1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)<br/>
+[2. Users/Personas Of The Project:](#2-users-personas-of-the-project-)<br/>
+[3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)<br/>
+[4. Solution Concept](#4-solution-concept)<br/>
+[5. Acceptance criteria](#5-acceptance-criteria)<br/>
+[6.  Release Planning:](#6--release-planning-)<br/>
   * [Lecture on Spark: April 6, 2020](#lecture-on-spark--april-6--2020)
   * [Contributors:](#contributors-)
     + [Design Implications and Discussion:](#design-implications-and-discussion-)
