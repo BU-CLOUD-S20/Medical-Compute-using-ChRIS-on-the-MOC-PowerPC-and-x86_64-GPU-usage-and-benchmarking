@@ -2,13 +2,13 @@
 
 ## Table of Contents
 
-[0. Introduction to ChRIS](#t1)
-[1. Vision and Goals Of The Project](#t2)
-[2. Users/Personas Of The Project](#t3)
-[3. Scope and Features Of The Project](#t4)
-[4. Solution Concept](#t5)
-[5. Acceptance criteria](#t6)
-[6. Release Planning](#t7)
+[0. Introduction to ChRIS](#t1)<br/>
+[1. Vision and Goals Of The Project](#t2)<br/>
+[2. Users/Personas Of The Project](#t3)<br/>
+[3. Scope and Features Of The Project](#t4)<br/>
+[4. Solution Concept](#t5)<br/>
+[5. Acceptance criteria](#t6)<br/>
+[6. Release Planning](#t7)<br/>
 
 
 <a name="t1"></a>
