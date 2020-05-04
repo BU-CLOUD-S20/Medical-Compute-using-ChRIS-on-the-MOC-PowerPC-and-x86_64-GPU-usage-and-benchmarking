@@ -18,6 +18,7 @@
   * [Description](#description-1)
   * [Usage](#usage-1)
   * [Example](#example-1)
+- [ChRIS Plugin Workflow on Titan](#chris-plugin-workflow-on-titan)
 - [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#running--pman--and--pfioh--on-power9-cluster-in-the-mass-open-cloud)
   * [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
     + [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
@@ -507,6 +508,8 @@ Most python scripts in this repo is forked from this tensorRT example provided b
 
 https://github.com/NVIDIA/object-detection-tensorrt-example
 
+## ChRIS Plugin Workflow on Titan
+[ChRIS Plugin Workflow on Titan](https://github.com/BU-CLOUD-S20/Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking/blob/master/titan)
 
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
