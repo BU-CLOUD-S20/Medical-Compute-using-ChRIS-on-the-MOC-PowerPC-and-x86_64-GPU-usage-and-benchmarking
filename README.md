@@ -2,9 +2,9 @@
 
 ## Introduction to ChRIS
 
-- Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
+- [Red Hat "Creating ChRIS"](https://www.redhat.com/en/creating-chris)
 
-- Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
+- [Boston University Red Hat Collaboratory of ChRIS](https://www.bu.edu/rhcollab/projects/radiology/)
 
 ## Table of Content
 [1.   Vision and Goals Of The Project](#1---vision-and-goals-of-the-project)<br/>
@@ -14,7 +14,7 @@
 [5.   Acceptance criteria](#5---acceptance-criteria)<br/>
 [6.   Release Planning](#6---release-planning)<br/>
 
-[Product Documentation](#product-documentation)
+### [Product Documentation](#product-documentation)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
   * [Usage](#usage)
@@ -24,7 +24,7 @@
   * [Usage](#usage-1)
   * [Example](#example-1)
   
-[ChRIS Workflow Documentation](#chris-workflow-documentation)
+### [ChRIS Workflow Documentation](#chris-workflow-documentation)
 - [ChRIS Plugin Workflow on Titan](#chris-plugin-workflow-on-titan)
 - [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#t8)
     
