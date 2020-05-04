@@ -1,6 +1,12 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
+
+## Introduction to ChRIS:
+
+- Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
+
+- Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
+
 ## Table of Content
-[0.   Introduction to ChRIS](#t1)<br/>
 [1.   Vision and Goals Of The Project](#t2)<br/>
 [2.   Users/Personas Of The Project](#t3)<br/>
 [3.   Scope and Features Of The Project](#t4)<br/>
@@ -18,13 +24,6 @@
   * [Description](#description-1)
   * [Usage](#usage-1)
   * [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#running--pman--and--pfioh--on-power9-cluster-in-the-mass-open-cloud)
-
-<a name="t1"></a>
-## 0.   Introduction to ChRIS:
-
-- Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
-
-- Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
 <a name="t2"></a>
 ## 1.   Vision and Goals Of The Project:
