@@ -183,7 +183,9 @@ On ppc64le machine, the typical inference time for each frame is about 4 ms. How
 
 ### LIZZY
 
-### Troubleshooting
+** **
+
+### Troubleshooting Our Plug-ins
 
 #### Possible error 1: Error opening video stream or file
 
@@ -197,6 +199,7 @@ This means the opencv didn't open the video file successfully. Check:
 Please contact the machine administrator to ensure the docker has the internet access ability.
 
 
+** **
 
 ## 6.  Release Planning:
 
