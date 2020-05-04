@@ -483,6 +483,8 @@ Most python scripts in this repo is forked from this tensorRT example provided b
 
 https://github.com/NVIDIA/object-detection-tensorrt-example
 
+## ChRIS Workflow Documentation
+
 ## ChRIS Plugin Workflow on Titan
 [ChRIS Plugin Workflow on Titan](https://github.com/BU-CLOUD-S20/Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking/blob/master/titan)
 
