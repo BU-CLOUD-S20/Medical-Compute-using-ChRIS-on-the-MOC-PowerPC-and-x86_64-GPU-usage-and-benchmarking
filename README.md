@@ -7,13 +7,14 @@
 - Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
 ## Table of Content
-- [1.   Vision and Goals Of The Project](#1---vision-and-goals-of-the-project)
-- [2.   Users/Personas Of The Project](#t3)
-- [3.   Scope and Features Of The Project](#3---scope-and-features-of-the-project)
-- [4.   Solution Concept](#4---solution-concept)
-- [5.   Acceptance criteria](#5---acceptance-criteria)
-- [6.   Release Planning](#6---release-planning)
-- [Products](#products)
+[1.   Vision and Goals Of The Project](#1---vision-and-goals-of-the-project)<br/>
+[2.   Users/Personas Of The Project](#t3)<br/>
+[3.   Scope and Features Of The Project](#3---scope-and-features-of-the-project)<br/>
+[4.   Solution Concept](#4---solution-concept)<br/>
+[5.   Acceptance criteria](#5---acceptance-criteria)<br/>
+[6.   Release Planning](#6---release-planning)<br/>
+
+[Products](#products)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
   * [Usage](#usage)
