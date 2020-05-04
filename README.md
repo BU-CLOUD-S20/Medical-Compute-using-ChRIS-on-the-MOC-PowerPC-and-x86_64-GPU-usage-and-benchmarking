@@ -489,15 +489,6 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 [ChRIS Plugin Workflow on Titan](https://github.com/BU-CLOUD-S20/Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking/blob/master/titan)
 
 <a name="t8"></a>
-## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
-
-[`pman` ppc64le](https://hub.docker.com/repository/docker/emslade/pman.ppc64le)
-[`pfioh` ppc64le](https://hub.docker.com/repository/docker/emslade/pfioh.ppc64le)
-
-#### If you want to pull the docker container
-
-	docker pull docker.io/emslade/pman.ppc64le
-	docker pull docker.io/emslade/pfioh.ppc64le
 
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
