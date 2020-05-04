@@ -181,7 +181,24 @@ On ppc64le machine, the typical inference time for each frame is about 4 ms. How
 
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
-### LIZZY
+### Power9 `pman` and `pfioh` Containers
+- [`pman` ppc64le](https://hub.docker.com/repository/docker/emslade/pman.ppc64le)
+- [`pfioh` ppc64le](https://hub.docker.com/repository/docker/emslade/pfioh.ppc64le)
+
+#### If you want to pull the docker container
+
+	docker pull docker.io/emslade/pman.ppc64le
+	docker pull docker.io/emslade/pfioh.ppc64le
+
+### Step 1: Log in to [Power9 Openshift](https://p9-openshift.osh.massopen.cloud:8443/)
+
+A. Navigate to your project. Here you will see a "Add to Project" option in the top right hand corner.
+B. Click on Add to Project -> Deploy Image
+C. Now, check on Image Name. 
+		- if you want to deploy `pfioh`, include **emslade/pfioh.ppc64le** in the text box
+		- if you want to deploy `pman`, include **emslade/pman.ppc64le** in the text box
+D. Then, click ** Deploy**!
+E. After `pman` and `pfioh` are deployed, you can say hello to these services. Reference the [**pfcon wiki**](https://github.com/FNNDSC/pfcon/wiki/pfcon-*FS*-and-*DS*-plugin-example-on-moc-ppc64le-direct)
 
 ** **
 
