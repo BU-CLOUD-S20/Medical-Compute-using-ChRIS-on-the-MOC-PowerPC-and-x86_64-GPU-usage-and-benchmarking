@@ -1,20 +1,5 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
-## 0.   Contributors:
-
-**Mentor**: Rudolph Pienaar (rudolphpienaar)
-
-**Group Members**:
-
-- Elizabeth Slade (https://github.com/emslade23)
-
-- Shineun Yoon (https://github.com/ShineunYoon)
-
-- Bowen Jia (https://github.com/jbw0410)
-
-- Haoyang Wang (https://github.com/PupilTong)
-
-- Kefan Zhang (https://github.com/h4x0rMadness)
 
 ## 0.   ChRIS Introduction:
 
@@ -181,24 +166,7 @@ On ppc64le machine, the typical inference time for each frame is about 4 ms. How
 
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
-### Power9 `pman` and `pfioh` Containers
-- [`pman` ppc64le](https://hub.docker.com/repository/docker/emslade/pman.ppc64le)
-- [`pfioh` ppc64le](https://hub.docker.com/repository/docker/emslade/pfioh.ppc64le)
-
-#### If you want to pull the docker container
-
-	docker pull docker.io/emslade/pman.ppc64le
-	docker pull docker.io/emslade/pfioh.ppc64le
-
-### Step 1: Log in to [Power9 Openshift](https://p9-openshift.osh.massopen.cloud:8443/)
-
-A. Navigate to your project. Here you will see a "Add to Project" option in the top right hand corner.
-B. Click on Add to Project -> Deploy Image
-C. Now, check on Image Name. 
-		- if you want to deploy `pfioh`, include **emslade/pfioh.ppc64le** in the text box
-		- if you want to deploy `pman`, include **emslade/pman.ppc64le** in the text box
-D. Then, click ** Deploy**!
-E. After `pman` and `pfioh` are deployed, you can say hello to these services. Reference the [**pfcon wiki**](https://github.com/FNNDSC/pfcon/wiki/pfcon-*FS*-and-*DS*-plugin-example-on-moc-ppc64le-direct)
+### LIZZY
 
 ** **
 
@@ -272,3 +240,18 @@ https://docs.google.com/presentation/d/1NgW_wVI9jGW7v0X-wA9BJ5P7Y8_vDF1GhuCA8n1N
 
 Our team gave a class talk on Spark, which is a distributed computing framework designed for applications.
 
+## Contributors:
+
+**Mentor**: Rudolph Pienaar (rudolphpienaar)
+
+**Group Members**:
+
+- Elizabeth Slade (https://github.com/emslade23)
+
+- Shineun Yoon (https://github.com/ShineunYoon)
+
+- Bowen Jia (https://github.com/jbw0410)
+
+- Haoyang Wang (https://github.com/PupilTong)
+
+- Kefan Zhang (https://github.com/h4x0rMadness)
