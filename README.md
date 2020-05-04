@@ -1,12 +1,12 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 ## Table of Content
-[0.   Introduction to ChRIS:](#0---introduction-to-chris-)<br/>
-[1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)<br/>
-[2. Users/Personas Of The Project:](#2-users-personas-of-the-project-)<br/>
-[3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)<br/>
-[4. Solution Concept](#4-solution-concept)<br/>
-[5. Acceptance criteria](#5-acceptance-criteria)<br/>
-[6.  Release Planning:](#6--release-planning-)<br/>
+[0.   Introduction to ChRIS](#t1)<br/>
+[1.   Vision and Goals Of The Project](#t2)<br/>
+[2.   Users/Personas Of The Project](#t3)<br/>
+[3.   Scope and Features Of The Project](#t4)<br/>
+[4.   Solution Concept](#t5)<br/>
+[5.   Acceptance criteria](#t6)<br/>
+[6.   Release Planning](#t7)<br/>
   * [Lecture on Spark: April 6, 2020](#lecture-on-spark--april-6--2020)
   * [Contributors:](#contributors-)
     + [Design Implications and Discussion:](#design-implications-and-discussion-)
@@ -44,7 +44,7 @@ Our benchmarking plug-in will be the first ChRIS plug-in that can test performan
 
 
 <a name="t3"></a>
-## 2. Users/Personas Of The Project:
+## 2.   Users/Personas Of The Project:
 
 - User Persona Examples:
 
@@ -67,20 +67,20 @@ However, we are not focusing on building a precious and complex machine learning
 At last, this plugin will produce comparable results that allow users to compare the performance of different platforms in an elegant and easy method.
 
 <a name="t5"></a>
-## 4. Solution Concept
+## 4.   Solution Concept
 
 ### Global Architectural Structure Of the Project:
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
 <a name="t6"></a>
-## 5. Acceptance criteria
+## 5.   Acceptance criteria
 
 Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
 The minimal product presents the benchmark differences between x86 and PowerPC.
 
 <a name="t7"></a>
-## 6.  Release Planning:
+## 6.   Release Planning:
 
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
