@@ -65,7 +65,7 @@ The implications for our global architecture design are to allow ChRIS developer
 
 ## Our Plug-ins 
 
-### I. Matrix Multiplication Plugin
+## I. Matrix Multiplication Plugin
 
 #### Docker Images
 
@@ -223,7 +223,7 @@ Related Links
 ----------
 https://medium.com/datathings/benchmarking-blas-libraries-b57fb1c6dc7
 
-### II. Object Detection Plugin
+## II. Object Detection Plugin
 
 #### Docker image
 
