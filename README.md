@@ -1,5 +1,27 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
-
+## Table of Content
+- [0.   Introduction to ChRIS:](#0---introduction-to-chris-)
+- [1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)
+- [2.   Users/Personas Of The Project:](#2---users-personas-of-the-project-)
+- [3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)
+- [4.   Solution Concept](#4---solution-concept)
+- [5.   Acceptance criteria](#5---acceptance-criteria)
+- [6.   Release Planning:](#6---release-planning-)
+- [Lecture on Spark: April 6, 2020](#lecture-on-spark--april-6--2020)
+- [Contributors:](#contributors-)
+- [Products](#products)
+- [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
+  * [Description](#description)
+  * [Usage](#usage)
+  * [Example](#example)
+- [II. Object Detection Plugin](#ii-object-detection-plugin)
+  * [Description](#description-1)
+  * [Usage](#usage-1)
+  * [Example](#example-1)
+- [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#running--pman--and--pfioh--on-power9-cluster-in-the-mass-open-cloud)
+  * [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
+    + [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
+    + [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
 ## Introduction to ChRIS:
 
 - Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
