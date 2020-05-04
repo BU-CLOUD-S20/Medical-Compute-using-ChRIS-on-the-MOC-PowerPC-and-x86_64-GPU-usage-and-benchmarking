@@ -1,4 +1,0 @@
-chrisapp
-pudb
-numpy
-numba

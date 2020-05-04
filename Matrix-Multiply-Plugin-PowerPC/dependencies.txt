@@ -1,4 +1,0 @@
-llvmlite==0.28
-chrisapp
-pudb
-cython
