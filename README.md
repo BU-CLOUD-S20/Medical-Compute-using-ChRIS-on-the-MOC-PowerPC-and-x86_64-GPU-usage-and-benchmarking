@@ -176,11 +176,12 @@ maximum_fps,minimum_fps,average_fps
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
 
+### Benchmarking Results
+On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
+
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
-
-### Benchmarking result.
-On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
+### LIZZY
 
 ### Troubleshooting
 
