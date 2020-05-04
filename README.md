@@ -100,7 +100,7 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
 
-### [Sprint 1: February 12th, 2020] (https://docs.google.com/presentation/d/1Q2wXZ6P_aQ-WBZZ00wB3yAEC8cJ0w2DTWR_6CjPHYpg/edit?usp=sharing)
+### [Sprint 1: February 12th, 2020](https://docs.google.com/presentation/d/1Q2wXZ6P_aQ-WBZZ00wB3yAEC8cJ0w2DTWR_6CjPHYpg/edit?usp=sharing)
 
 Get familiar with the ChRIS platform, either from web-app/ terminal operations.  
 	
