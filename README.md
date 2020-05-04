@@ -68,6 +68,11 @@ At last, this plugin will produce comparable results that allow users to compare
 
 This section provides a high-level architecture or a conceptual diagram showing the scope of the solution. If wireframes or visuals have already been done, this section could also be used to show how the intended solution will look. This section also provides a walkthrough explanation of the architectural structure.
 
+## 5. Acceptance criteria
+
+Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
+The minimal product presents the benchmark differences between x86 and PowerPC.
+
 ## Our Plug-ins 
 
 ### Matrix Multiplication plugin
@@ -99,9 +104,9 @@ This section provides a high-level architecture or a conceptual diagram showing 
 
 - [Object Detection Example Source Code](https://github.com/FNNDSC/objectdetection_example)
 
-### How to Build Our Docker Container
+### Step 1: How to Build Our Docker Container
 
-For ppc64le image, we cannot use the automatic build on docker hub. We have to build this container locally and push it into docker hub.
+- For ppc64le image, we cannot use the automatic build on docker hub. We have to build this container locally and push it into docker hub.
 
 ```bash
     cd path/to/this/repo
@@ -112,35 +117,31 @@ For ppc64le image, we cannot use the automatic build on docker hub. We have to b
 ```
 
 ### Deploy requirement
-Your host computer should be a linux os and installed CUDA 10.1 && nvidia container.
+- Your host computer should be a linux os and installed CUDA 10.1 && nvidia container.
 
-For ppc64le machine:
+	- For ppc64le machine: https://github.com/FNNDSC/pl-objectdetection_moc_ppc64
 
-https://github.com/FNNDSC/pl-objectdetection_moc_ppc64
+	- For x86_64 machine: https://github.com/FNNDSC/pl-objectdetection_x86
 
-For x86_64 machine:
-
-https://github.com/FNNDSC/pl-objectdetection_x86
-
-#### main Dependencies
+### Dependencies
 
 	ffmpeg
 	opencv-python
 	tensorflow
 	tensorrt
 
-### How to Run Our Containers
+### Step 2: How to Run Our Containers
 
 #### Using `docker run`
 
-Check this repo for more information https://github.com/FNNDSC/objectdetection_example
+A. Check this repo for more information https://github.com/FNNDSC/objectdetection_example
 
-To run using `docker`, be sure to assign an "input" directory to
+B. To run using `docker`, be sure to assign an "input" directory to
 `/incoming` and an output directory to `/outgoing`. *Make sure that the*
 `$(pwd)/out` *directory is world writable!*
-And use the `--f` flag to set the inputfile inside your `/incoming` directory.
+	- And use the `--f` flag to set the inputfile inside your `/incoming` directory.
 
-Now, prefix all calls with
+C. Now, prefix all calls with
 
 ``` {.sourceCode .bash}
 docker run --security-opt label=type:nvidia_container_t    \
@@ -151,11 +152,9 @@ docker run --security-opt label=type:nvidia_container_t    \
 ```
 
 
-### How it works
+### Concept: How our plugins work
 
 *Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
-
-#### Workflow
 
 *this image powered by previous url*
 
@@ -173,18 +172,18 @@ maximum_fps,minimum_fps,average_fps
 *(Result is gotten from a ppc64le machine)*
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
-#### Benchmarking result.
+### Benchmarking result.
 On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
-#### Troubleshoot
+### Troubleshoot
 
-##### Error opening video stream or file
+#### Possible error 1: Error opening video stream or file
 
 This means the opencv didn't open the video file successfully. Check:
 
 * If the file exist
 * If the input video coding format is supported by curent version ffmpeg.
 
-##### Failed to establish a new connection
+##### Possible error 2: Failed to establish a new connection
 
 Please contact the machine administrator to ensure the docker has the internet access ability.
 
@@ -194,11 +193,6 @@ The goal for the ChRIS platform is to provide a containerized application that i
 
 The implications for our global architecture design are to allow ChRIS developers to use ChRIS to benchmark different architectures to find which one maximize their ChRIS plugin performance.
 
-
-## 5. Acceptance criteria
-
-Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
-The minimal product presents the benchmark differences between x86 and PowerPC.
 
 
 ## 6.  Release Planning:
