@@ -49,9 +49,6 @@ Non-target users are:
 - Clinicians / Technicians / Patients who may use ChRIS platform but don't do or care about benchmarking between different architectures.
 
 
-
-** **
-
 ## 3.   Scope and Features Of The Project:
 
 
@@ -73,9 +70,17 @@ This section provides a high-level architecture or a conceptual diagram showing 
 Correctly developed a runnable ChRIS plugin that to some extent presents the performance differences between different platform architectures.
 The minimal product presents the benchmark differences between x86 and PowerPC.
 
+### Design Implications and Discussion:
+
+The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design is to make the plugin easy to use and integrate with a ChRIS developers workflow. 
+
+The implications for our global architecture design are to allow ChRIS developers to use ChRIS to benchmark different architectures to find which one maximize their ChRIS plugin performance.
+
+** **
+
 ## Our Plug-ins 
 
-### Matrix Multiplication plugin
+### I. Matrix Multiplication Plugin
 
 #### Docker Images
 
@@ -88,9 +93,9 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 
 - [Matrix_Multiply_Power9 Source Code](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
 
-### Object Detection plugin
+### Object Detection Plugin
 
-#### Docker image
+#### II. Docker image
 
 - [Object Detection for x86 Architecture](https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86)
 
@@ -116,14 +121,14 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 
 ```
 
-### Deploy requirement
+#### Deploy requirement
 - Your host computer should be a linux os and installed CUDA 10.1 && nvidia container.
 
 	- For ppc64le machine: https://github.com/FNNDSC/pl-objectdetection_moc_ppc64
 
 	- For x86_64 machine: https://github.com/FNNDSC/pl-objectdetection_x86
 
-### Dependencies
+#### Dependencies
 
 	ffmpeg
 	opencv-python
@@ -134,14 +139,14 @@ The minimal product presents the benchmark differences between x86 and PowerPC.
 
 #### Using `docker run`
 
-A. Check this repo for more information https://github.com/FNNDSC/objectdetection_example
+*Check this repo for more information https://github.com/FNNDSC/objectdetection_example*
 
-B. To run using `docker`, be sure to assign an "input" directory to
-`/incoming` and an output directory to `/outgoing`. *Make sure that the*
-`$(pwd)/out` *directory is world writable!*
-	- And use the `--f` flag to set the inputfile inside your `/incoming` directory.
+A. To run using `docker`, be sure to assign an "input" directory to
+`/incoming` and an output directory to `/outgoing`. 
+	- *Make sure that the* `$(pwd)/out` *directory is world writable!*
+	- Use the `--f` flag to set the inputfile inside your `/incoming` directory.
 
-C. Now, prefix all calls with
+B. Now, prefix all calls with
 
 ``` {.sourceCode .bash}
 docker run --security-opt label=type:nvidia_container_t    \
@@ -155,8 +160,6 @@ docker run --security-opt label=type:nvidia_container_t    \
 ### Concept: How our plugins work
 
 *Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
-
-*this image powered by previous url*
 
 ![workflow](https://miro.medium.com/max/1400/0*mnywPWQIQW5j0Paf)
 
@@ -172,9 +175,11 @@ maximum_fps,minimum_fps,average_fps
 *(Result is gotten from a ppc64le machine)*
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
+
 ### Benchmarking result.
 On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
-### Troubleshoot
+
+### Troubleshooting
 
 #### Possible error 1: Error opening video stream or file
 
@@ -183,15 +188,9 @@ This means the opencv didn't open the video file successfully. Check:
 * If the file exist
 * If the input video coding format is supported by curent version ffmpeg.
 
-##### Possible error 2: Failed to establish a new connection
+#### Possible error 2: Failed to establish a new connection
 
 Please contact the machine administrator to ensure the docker has the internet access ability.
-
-### Design Implications and Discussion:
-
-The goal for the ChRIS platform is to provide a containerized application that is made up of many plugins which run specific functions on inputs. The scope for our portion of the project is to develop one plugin that runs a function to benchmark performance between different architectures. The reason for this design is to make the plugin easy to use and integrate with a ChRIS developers workflow. 
-
-The implications for our global architecture design are to allow ChRIS developers to use ChRIS to benchmark different architectures to find which one maximize their ChRIS plugin performance.
 
 
 
