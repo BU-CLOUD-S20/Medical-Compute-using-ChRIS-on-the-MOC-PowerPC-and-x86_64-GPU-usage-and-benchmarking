@@ -1,19 +1,18 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
-## Introduction to ChRIS:
+## Introduction to ChRIS
 
 - Red Hat "Creating ChRIS": https://www.redhat.com/en/creating-chris
 
 - Boston University Red Hat Collaboratory of ChRIS : https://www.bu.edu/rhcollab/projects/radiology/
 
 ## Table of Content
-- [0.   Introduction to ChRIS](#0---introduction-to-chris-)
-- [1.   Vision and Goals Of The Project](#1---vision-and-goals-of-the-project-)
-- [2.   Users/Personas Of The Project](#2---users-personas-of-the-project-)
-- [3.   Scope and Features Of The Project](#3---scope-and-features-of-the-project-)
+- [1.   Vision and Goals Of The Project](#1---vision-and-goals-of-the-project)
+- [2.   Users/Personas Of The Project](#t3)
+- [3.   Scope and Features Of The Project](#3---scope-and-features-of-the-project)
 - [4.   Solution Concept](#4---solution-concept)
 - [5.   Acceptance criteria](#5---acceptance-criteria)
-- [6.   Release Planning](#6---release-planning-)
+- [6.   Release Planning](#6---release-planning)
 - [Products](#products)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
@@ -29,7 +28,7 @@
     + [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
     + [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
     
-## Contributors:
+## Contributors
 
 **Mentor**: Rudolph Pienaar (rudolphpienaar)
 
@@ -48,7 +47,7 @@
 
 ** **
 <a name="t2"></a>
-## 1.   Vision and Goals Of The Project:
+## 1.   Vision and Goals Of The Project
 
 The overall vision of the ChRIS project is to develop a plugin based on ChRIS platform so that users like developers or administrators are able to do benchmarking on cloud network topologies that include different architectures like x86 and PowerPC.
 
@@ -65,7 +64,7 @@ Our benchmarking plug-in will be the first ChRIS plug-in that can test performan
 
 
 <a name="t3"></a>
-## 2.   Users/Personas Of The Project:
+## 2.   Users/Personas Of The Project
 
 - User Persona Examples:
 
@@ -77,7 +76,7 @@ Clinicians / Technicians / Patients who may use ChRIS platform but don't do or c
 
 
 <a name="t4"></a>
-## 3.   Scope and Features Of The Project:
+## 3.   Scope and Features Of The Project
 
 
 We will focus on one plug-in which provides a series of tools and test functions to test the performance of the system. Based on what we decide is feasible, the test functions may range from a simple matrix multiplying to huge neural network training. These test functions will represent real workloads that may be deployed on the system. For example, if the real functions move data between main memory and GPU memory frequently, our functions are supposed to show this feature.
@@ -101,7 +100,7 @@ Correctly developed a runnable ChRIS plugin that to some extent presents the per
 The minimal product presents the benchmark differences between x86 and PowerPC.
 
 <a name="t7"></a>
-## 6.   Release Planning:
+## 6.   Release Planning
 
 The release planning section describes how the project will deliver incremental sets of features and functions in a series of releases to completion. Identification of user stories associated with iterations that will ease/guide sprint planning sessions is encouraged. Higher-level details for the first iteration is expected.
 
