@@ -486,7 +486,7 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 ## Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud
 
 [`pman` ppc64le](https://hub.docker.com/repository/docker/emslade/pman.ppc64le)
-- [`pfioh` ppc64le](https://hub.docker.com/repository/docker/emslade/pfioh.ppc64le)
+[`pfioh` ppc64le](https://hub.docker.com/repository/docker/emslade/pfioh.ppc64le)
 
 #### If you want to pull the docker container
 
