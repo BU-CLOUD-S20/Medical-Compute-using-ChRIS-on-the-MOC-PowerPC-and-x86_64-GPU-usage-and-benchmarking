@@ -14,7 +14,7 @@
 [5.   Acceptance criteria](#5---acceptance-criteria)<br/>
 [6.   Release Planning](#6---release-planning)<br/>
 
-[Products](#products)
+[Product Documentation](#product-documentation)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
   * [Usage](#usage)
@@ -23,11 +23,10 @@
   * [Description](#description-1)
   * [Usage](#usage-1)
   * [Example](#example-1)
+  
+[ChRIS Workflow Documentation](#chris-workflow-documentation)
 - [ChRIS Plugin Workflow on Titan](#chris-plugin-workflow-on-titan)
 - [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#t8)
-  * [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
-    + [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
-    + [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
     
 ## Contributors
 
@@ -155,9 +154,9 @@ The goal for the ChRIS platform is to provide a containerized application that i
 
 The implications for our global architecture design are to allow ChRIS developers to use ChRIS to benchmark different architectures to find which one maximize their ChRIS plugin performance.
 
-** **
 
-## Products
+** **
+## Product Documentation
 
 ## I. Matrix Multiplication Plugin
 
