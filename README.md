@@ -93,9 +93,9 @@ The implications for our global architecture design are to allow ChRIS developer
 
 - [Matrix_Multiply_Power9 Source Code](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
 
-### Object Detection Plugin
+### II. Object Detection Plugin
 
-#### II. Docker image
+#### Docker image
 
 - [Object Detection for x86 Architecture](https://hub.docker.com/repository/docker/fnndsc/pl-objectdetection_x86)
 
@@ -157,7 +157,7 @@ docker run --security-opt label=type:nvidia_container_t    \
 ```
 
 
-### Concept: How our plugins work
+### How Our Plugins Work
 
 *Get detailed information from: https://medium.com/better-programming/real-time-object-detection-on-gpus-in-10-minutes-6e8c9b857bb3*
 
@@ -175,6 +175,9 @@ maximum_fps,minimum_fps,average_fps
 *(Result is gotten from a ppc64le machine)*
 
 This shows the information about the inference time for every frame. We think it shows the data bus latency from cpu/main memory to the GPU.
+
+## Running `pman` and `pfioh` on Mass Open Cloud
+
 
 ### Benchmarking result.
 On ppc64le machine, the typical inference time for each frame is about 4 ms. However in x86_64 machine, we got about 6~7 ms inference time for every frame. We think the differnece is significant (powerpc is about 40% faster than x86_64).
