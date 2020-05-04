@@ -14,7 +14,6 @@
 - [4.   Solution Concept](#4---solution-concept)
 - [5.   Acceptance criteria](#5---acceptance-criteria)
 - [6.   Release Planning](#6---release-planning-)
-- [Contributors](#contributors-)
 - [Products](#products)
 - [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
   * [Description](#description)
@@ -29,6 +28,23 @@
   * [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
     + [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
     + [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
+    
+## Contributors:
+
+**Mentor**: Rudolph Pienaar (rudolphpienaar)
+
+**Group Members**:
+
+- Elizabeth Slade (https://github.com/emslade23)
+
+- Shineun Yoon (https://github.com/ShineunYoon)
+
+- Bowen Jia (https://github.com/jbw0410)
+
+- Haoyang Wang (https://github.com/PupilTong)
+
+- Kefan Zhang (https://github.com/h4x0rMadness)
+
 
 ** **
 <a name="t2"></a>
@@ -130,8 +146,6 @@ Get more granular with benchmarking metrics
 ### Sprint 5: April 2, 2020
 https://docs.google.com/presentation/d/1YQ5Jg-ek9q0KNLdDgN3uF2i2k72bBYIeSLijLClmZnA/edit?usp=sharing
 
-
-
 ** **
 
 ## Lecture on Spark: April 6, 2020
@@ -139,21 +153,6 @@ https://docs.google.com/presentation/d/1NgW_wVI9jGW7v0X-wA9BJ5P7Y8_vDF1GhuCA8n1N
 
 Our team gave a class talk on Spark, which is a distributed computing framework designed for applications.
 
-## Contributors:
-
-**Mentor**: Rudolph Pienaar (rudolphpienaar)
-
-**Group Members**:
-
-- Elizabeth Slade (https://github.com/emslade23)
-
-- Shineun Yoon (https://github.com/ShineunYoon)
-
-- Bowen Jia (https://github.com/jbw0410)
-
-- Haoyang Wang (https://github.com/PupilTong)
-
-- Kefan Zhang (https://github.com/h4x0rMadness)
 
 ### Design Implications and Discussion:
 
