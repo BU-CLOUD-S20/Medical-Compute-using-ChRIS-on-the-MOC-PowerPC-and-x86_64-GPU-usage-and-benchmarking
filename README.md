@@ -238,25 +238,7 @@ https://medium.com/datathings/benchmarking-blas-libraries-b57fb1c6dc7
 - [Object Detection Power9 Source Code](https://github.com/FNNDSC/pl-objectdetection_moc_ppc64)
 
 - [Object Detection Example Source Code](https://github.com/FNNDSC/objectdetection_example)
-pl-objectdetection_moc_ppc64
-===============
 
-- [pl-objectdetection_moc_ppc64](#pl-objectdetection-moc-ppc64)
-  * [Description](#description)
-  * [Usage](#usage)
-    + [Requirements](#requirements)
-    + [Docker run on x86_64](#docker-run-on-x86_64)
-    + [Docker run on PowerPC](#docker-run-on-powerpc)
-  * [Example](#example)
-  * [Research and Development References](#research-and-development-references)
-    + [Workflow](#workflow)
-    + [Benchmarking result](#benchmarking-result)
-  * [Troubleshoot](#troubleshoot)
-      - [Error opening video stream or file](#error-opening-video-stream-or-file)
-      - [Failed to establish a new connection](#failed-to-establish-a-new-connection)
-  * [Related Links](#related-links)
-    + [Docker Images](#docker-images)
-  * [Contributor](#contributor)
   
 Description
 ------------
