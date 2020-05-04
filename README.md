@@ -2,7 +2,6 @@
 ## Table of Content
   * [0.   Introduction to ChRIS:](#0---introduction-to-chris-)
   * [1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)
-    + [High-level goals include:](#high-level-goals-include-)
   * [2. Users/Personas Of The Project:](#2-users-personas-of-the-project-)
   * [3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)
   * [4. Solution Concept](#4-solution-concept)
