@@ -141,6 +141,7 @@ Get more granular with benchmarking metrics
 
 Our team gave a class talk on Spark, which is a distributed computing framework designed for applications.
 
+** **
 
 ### Design Implications and Discussion:
 
