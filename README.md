@@ -1,5 +1,5 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
-Table of Content
+## Table of Content
   * [0.   Introduction to ChRIS:](#0---introduction-to-chris-)
   * [1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)
     + [High-level goals include:](#high-level-goals-include-)
