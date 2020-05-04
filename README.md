@@ -34,11 +34,11 @@
 
 **Group Members**:
 
-- Elizabeth Slade (https://github.com/emslade23)
-- Shineun Yoon (https://github.com/ShineunYoon)
-- Bowen Jia (https://github.com/jbw0410)
-- Haoyang Wang (https://github.com/PupilTong)
-- Kefan Zhang (https://github.com/h4x0rMadness)
+- [Elizabeth Slade](https://github.com/emslade23)
+- [Shineun Yoon](https://github.com/ShineunYoon)
+- [Bowen Jia](https://github.com/jbw0410)
+- [Haoyang Wang](https://github.com/PupilTong)
+- [Kefan Zhang](https://github.com/h4x0rMadness)
 
 ** **
 <a name="t2"></a>
