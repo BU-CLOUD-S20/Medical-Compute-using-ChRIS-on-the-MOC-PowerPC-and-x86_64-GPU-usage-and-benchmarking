@@ -1,15 +1,58 @@
 # Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking
 
-## Table of Contents
-
-[0. Introduction to ChRIS](#t1)<br/>
-[1. Vision and Goals Of The Project](#t2)<br/>
-[2. Users/Personas Of The Project](#t3)<br/>
-[3. Scope and Features Of The Project](#t4)<br/>
-[4. Solution Concept](#t5)<br/>
-[5. Acceptance criteria](#t6)<br/>
-[6. Release Planning](#t7)<br/>
-
+- [Medical-Compute-using-ChRIS-on-the-MOC-PowerPC-and-x86_64-GPU-usage-and-benchmarking](#medical-compute-using-chris-on-the-moc-powerpc-and-x86-64-gpu-usage-and-benchmarking)
+  * [0.   Introduction to ChRIS:](#0---introduction-to-chris-)
+  * [1.   Vision and Goals Of The Project:](#1---vision-and-goals-of-the-project-)
+    + [High-level goals include:](#high-level-goals-include-)
+  * [2. Users/Personas Of The Project:](#2-users-personas-of-the-project-)
+  * [3.   Scope and Features Of The Project:](#3---scope-and-features-of-the-project-)
+  * [4. Solution Concept](#4-solution-concept)
+    + [Global Architectural Structure Of the Project:](#global-architectural-structure-of-the-project-)
+  * [5. Acceptance criteria](#5-acceptance-criteria)
+  * [6.  Release Planning:](#6--release-planning-)
+    + [Sprint 1: February 12th, 2020](#sprint-1--february-12th--2020)
+    + [Sprint 2: February 26, 2020](#sprint-2--february-26--2020)
+    + [Sprint 3: March 7, 2020](#sprint-3--march-7--2020)
+    + [Sprint 4: March 19, 2020](#sprint-4--march-19--2020)
+    + [Sprint 5: April 2, 2020](#sprint-5--april-2--2020)
+  * [Lecture on Spark: April 6, 2020](#lecture-on-spark--april-6--2020)
+  * [Contributors:](#contributors-)
+    + [Design Implications and Discussion:](#design-implications-and-discussion-)
+  * [Our Plug-ins](#our-plug-ins)
+  * [I. Matrix Multiplication Plugin](#i-matrix-multiplication-plugin)
+      - [Docker Images](#docker-images)
+      - [Source code](#source-code)
+  * [Description](#description)
+  * [Usage](#usage)
+    + [Requirements](#requirements)
+    + [Docker run on x86_64](#docker-run-on-x86-64)
+    + [Docker run on PowerPC](#docker-run-on-powerpc)
+  * [Example](#example)
+  * [Research and Development References](#research-and-development-references)
+    + [Workflow](#workflow)
+  * [Troubleshoot](#troubleshoot)
+  * [Related Links](#related-links)
+  * [II. Object Detection Plugin](#ii-object-detection-plugin)
+      - [Docker image](#docker-image)
+      - [Source code](#source-code-1)
+  * [Description](#description-1)
+  * [Usage](#usage-1)
+    + [Requirements](#requirements-1)
+    + [Docker run on x86_64](#docker-run-on-x86-64-1)
+    + [Docker run on PowerPC](#docker-run-on-powerpc-1)
+  * [Example](#example-1)
+  * [Research and Development References](#research-and-development-references-1)
+    + [Workflow](#workflow-1)
+    + [Benchmarking result](#benchmarking-result)
+  * [Troubleshoot](#troubleshoot-1)
+      - [Error opening video stream or file](#error-opening-video-stream-or-file)
+      - [Failed to establish a new connection](#failed-to-establish-a-new-connection)
+  * [Related Links](#related-links-1)
+  * [Running `pman` and `pfioh` on Power9 Cluster in the Mass Open Cloud](#running--pman--and--pfioh--on-power9-cluster-in-the-mass-open-cloud)
+    + [LIZZY](#lizzy)
+    + [Troubleshooting Our Plug-ins](#troubleshooting-our-plug-ins)
+      - [Possible error 1: Error opening video stream or file](#possible-error-1--error-opening-video-stream-or-file)
+      - [Possible error 2: Failed to establish a new connection](#possible-error-2--failed-to-establish-a-new-connection)
 
 <a name="t1"></a>
 ## 0.   Introduction to ChRIS:
