@@ -78,10 +78,7 @@ The implications for our global architecture design are to allow ChRIS developer
 
 - [Matrix_Multiply_Power9 Source Code](https://github.com/FNNDSC/pl-matrixmultiply_moc_ppc64)
 
-pl-matrixmultiply_moc_ppc64
-===============
 
-  
 Description
 ------------
 ```
