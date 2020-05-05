@@ -511,7 +511,7 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 		- if you want to deploy `pfioh`, include **emslade/pfioh.ppc64le** in the text box
 		- if you want to deploy `pman`, include **emslade/pman.ppc64le** in the text box
 		
-### Step 5: Then, click ** Deploy**!
+### Step 5: Then, click **Deploy** !
 
 ### Step 6: After `pman` and `pfioh` are deployed, you can say hello to these services. 
 - Reference the [**pfcon wiki**](https://github.com/FNNDSC/pfcon/wiki/pfcon-*FS*-and-*DS*-plugin-example-on-moc-ppc64le-direct). 
