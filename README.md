@@ -508,8 +508,8 @@ https://github.com/NVIDIA/object-detection-tensorrt-example
 
 ### Step 4: Now, check on Image Name. 
 
-		- if you want to deploy `pfioh`, include **emslade/pfioh.ppc64le** in the text box
-		- if you want to deploy `pman`, include **emslade/pman.ppc64le** in the text box
+- if you want to deploy `pfioh`, include **emslade/pfioh.ppc64le** in the text box
+- if you want to deploy `pman`, include **emslade/pman.ppc64le** in the text box
 		
 ### Step 5: Then, click **Deploy** !
 
